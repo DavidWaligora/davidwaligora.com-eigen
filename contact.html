@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="cssdavid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+<!--Pagina Logo-->
+<a href="index.html" class="logo">DAVID WALIGORA.</a>
+
+<!--Navigatie-->
+<div class="topnav">
+  <div class="dropdown">
+    <a href="hobbyeninteresses.html">hobby en interesses</a> 
+  </div>  
+  <div class="dropdown">
+    <a href="project.html" class="dropbtn"> project</a>
+    <div class="dropdown-content"> 
+      <a href="project1.html">project 1</a>
+    </div> 
+  </div>
+  <a href="curriculumvitae.html">curriculum vitae</a> 
+  <a href="contact.html">contact</a>
+</div>
+
+<!--Foto-->
+<img src="foto's/Startpagina.jpg" alt="Foto developer">
+
+<!--formulier-->    
+<div class="text" id="formtekst">
+    <form action="https://tm-statweb.be/forms.php" method="post">
+        <div>
+            <input type="hidden" name="studentemail" value="r0989841@student.thomasmore.be">
+        </div>
+        <div>   
+            <label for="Voornaam">Voornaam</label>
+        </div><div>
+            <input type="text" name="Voornaam" id="Voornaam" placeholder="Vul hier je naam in">
+        </div><div>
+            <label for="Familienaam">Familienaam</label>
+        </div><div>
+            <input type="text" name="Familienaam" id="familienaam" placeholder="Vul hier je achternaam in">
+        </div><div>
+            <label for="mail">Mail</label>
+        </div><div>
+            <textarea id="mail" name="mail" placeholder="Vul hier je mail in" style="height:200px"></textarea>
+        
+        </div><div class="knop-container">  
+            <input type="submit" value="Registreren">
+        </div>
+</div>
+</form>
+    
+</body>
+</html>
